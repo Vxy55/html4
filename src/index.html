@@ -11,8 +11,23 @@
   </head>
   <body>
     <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
+      <form>
+        <input type="text" name="ccname" placeholder="Enter CC name:" />
+        <input
+          type="number"
+          name="cardnumber"
+          placeholder="Enter Card Number:"
+        />
+        <input
+          type="number"
+          name="cvc"
+          placeholder="Enter CVC:"
+          minlength="3"
+        />
+        <input type="date" name="cc-exp" placeholder="Enter cc-exp date:" />
+        <div class="emoji mb-6">💣🤯💥</div>
+        <button class="button">Boom?</button>
+      </form>
     </div>
   </body>
 </html>
